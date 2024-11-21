@@ -8,13 +8,11 @@
 # Blog: https://p3terx.com
 #=============================================================
 
-# fw876/helloworld
-#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.defaultault
-
+### 添加第三方订阅源
+#sed -i '$a src-git-full small https://github.com/kenzok8/small-package' feeds.conf.default
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 ### 定时限速插件
-src-git eqosplus  https://github.com/sirpdboy/luci-app-eqosplus
-
+sed -i '$a src-git eqosplus  https://github.com/sirpdboy/luci-app-eqosplus' feeds.conf.default
 #sed -i 's@coolsnowwolf/packages@P3TERX/packages@' feeds.conf.default
 #sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 #sed -i '$a src-git helloworld https://github.com/P3TERX/helloworld' feeds.conf.default
