@@ -12,9 +12,9 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.defaultault
 
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+### 定时限速插件
+src-git eqosplus  https://github.com/sirpdboy/luci-app-eqosplus
 
 #sed -i 's@coolsnowwolf/packages@P3TERX/packages@' feeds.conf.default
-
 #sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
-
 #sed -i '$a src-git helloworld https://github.com/P3TERX/helloworld' feeds.conf.default
