@@ -11,8 +11,6 @@
 ### 添加第三方订阅源
 sed -i '$a src-git-full small https://github.com/kenzok8/small-package' feeds.conf.default
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-### 限速插件
-sed -i '$a src-git eqosmtk https://github.com/hanwckf/immortalwrt-mt798x/tree/openwrt-21.02/package/mtk/applications/luci-app-eqos-mtk' feeds.conf.default
 #sed -i 's@coolsnowwolf/packages@P3TERX/packages@' feeds.conf.default
 #sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 #sed -i '$a src-git helloworld https://github.com/P3TERX/helloworld' feeds.conf.default
