@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build immortalwrt-23.05-xiaomi-mini
+name: Build immortalwrt-24.10-xiaomi-mini
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
