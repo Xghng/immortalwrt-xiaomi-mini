@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt-360T7-23.05
+name: Build openwrt-xiaomimini_21.02
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt
