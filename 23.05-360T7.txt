@@ -1,4 +1,5 @@
 immortalwrt-23.05（闭源MTK驱动）主路由版。
-含模块：
+含模块：定时重启autoreboot 科学上网 homeproxy
+含模块：frpc客户端内网穿透 虚拟通道服务端器openvpn-server
 默认IP地址：192.168.1.1
 密码：空
