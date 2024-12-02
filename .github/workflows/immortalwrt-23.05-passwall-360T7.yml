@@ -24,8 +24,8 @@ env:
   REPO_BRANCH: openwrt-23.05
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: passwall/360t7_passwall_23.05.config
-  DIY_P1_SH: diy-23.05-360t7-1.sh
-  DIY_P2_SH: diy-23.05-360t7-2.sh
+  DIY_P1_SH: passwall/diy-passwall-1.sh
+  DIY_P2_SH: passwall/diy-passwall-2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
