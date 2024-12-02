@@ -171,7 +171,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: ${{ steps.tag.outputs.release_tag }}
-        body_path: homeproxy/23.05-360T7-homeproxy.txt
+        body_path: passwall/23.05-360t7-passwall.txt
         files: ${{ env.FIRMWARE }}/*
 
     - name: Delete workflow runs
