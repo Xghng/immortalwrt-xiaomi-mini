@@ -22,7 +22,7 @@ on:
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-23.05
-  FEEDS_CONF: feeds.conf.default
+  FEEDS_CONF: 360T7/immortalwrt23.05/AP-360t7/feeds.conf.default-23.05
   CONFIG_FILE: 360T7/immortalwrt23.05/AP-360t7/AP-360t7.config
   DIY_P1_SH: 360T7/immortalwrt23.05/AP-360t7/diy-part1-AP-360t7.sh
   DIY_P2_SH: 360T7/immortalwrt23.05/AP-360t7/diy-part2-AP-360t7.sh
