@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build immortalwrt-23.05-passwall-360T7
+name: Build immortalwrt-23.05-homeproxy-360T7
 
 on:
   repository_dispatch:
@@ -23,9 +23,9 @@ env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-23.05
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: passwall/360t7_passwall_23.05.config
-  DIY_P1_SH: passwall/diy-passwall-1.sh
-  DIY_P2_SH: passwall/diy-passwall-2.sh
+  CONFIG_FILE: 360T7/immortalwrt23.05/homeproxy/homeproxy.config
+  DIY_P1_SH: 360T7/immortalwrt23.05/homeproxy/diy-part1-homeproxy.sh
+  DIY_P2_SH: 360T7/immortalwrt23.05/homeproxy/diy-part2-homeproxy.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
@@ -171,7 +171,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: ${{ steps.tag.outputs.release_tag }}
-        body_path: passwall/23.05-360t7-passwall.txt
+        ### 修改固件说明文件TXT
+        body_path: 360T7/immortalwrt23.05/homeproxy/homeproxy.txt
         files: ${{ env.FIRMWARE }}/*
 
     - name: Delete workflow runs
