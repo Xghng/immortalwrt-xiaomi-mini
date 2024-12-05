@@ -3,6 +3,7 @@ immortalwrt-23.05（闭源MTK驱动）主路由版。
 含模块：frpc客户端内网穿透 虚拟通道服务端器openvpn-server
 含模块：luci-app-oaf应用过滤插件
 含模块：luci-app-accesscontrol 上网时间控制丢弃
+含模块：luci-app-accesscontrol-plus
 含模块：luci-app-wrtbwmon 实时流量监测
 默认IP地址：192.168.168.1
 密码：空
