@@ -10,12 +10,12 @@
 
 ### 添加第三方订阅源
 ### sed -i '$a src-git-full small https://github.com/kenzok8/small-package' feeds.conf.default
-## echo 'src-git accesscontrol https://github.com/kingyond/luci-app-accesscontrol-plus' >>feeds.conf.default
+echo 'src-git clone https://github.com/destan19/openfros.git' >>feeds.conf.default
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 # sed -i '$a src-git helloworld https://github.com/P3TERX/helloworld' feeds.conf.default
 ### 应用过滤插件
-cd lede
-sed -i '$a src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git' feeds.conf.default
-./scripts/feeds update -a && ./scripts/feeds install -a
+## cd lede
+## sed -i '$a src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git' feeds.conf.default
+## ./scripts/feeds update -a && ./scripts/feeds install -a
 #
