@@ -22,10 +22,10 @@ on:
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-24.10
-  FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: 360T7-23.05.config
-  DIY_P1_SH: diy-23.05-360t7-1.sh
-  DIY_P2_SH: diy-23.05-360t7-2.sh
+  FEEDS_CONF: 360T7/immortalwrt-mt798x-fros/feeds.conf.default
+  CONFIG_FILE: 360T7/immortalwrt-mt798x-fros/fros-AP-360t7.config
+  DIY_P1_SH: 360T7/immortalwrt-mt798x-fros/diy-part1-fros-360t7.sh
+  DIY_P2_SH: 360T7/immortalwrt-mt798x-fros/diy-part2-fros-360t7.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
@@ -171,7 +171,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: ${{ steps.tag.outputs.release_tag }}
-        body_path: 23.05-360T7.txt
+        ### 修改固件说明文件txt
+        body_path: 360T7/immortalwrt-mt798x-fros/fros-360t7.txt
         files: ${{ env.FIRMWARE }}/*
 
     - name: Delete workflow runs
