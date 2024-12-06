@@ -1,0 +1,8 @@
+immortalwrt-21.02（闭源MTK驱动）主路由AP版。
+含模块：luci-app-autoreboot 定时重启
+含模块：luci-app-eqos 网速控制服务
+含模块：luci-app-nft-qos 网速控制
+含模块：luci-app-oaf 应用过滤插件
+含模块：luci-app-wrtbwmon 实时流量监测
+默认IP地址：192.168.166.1
+密码：空
