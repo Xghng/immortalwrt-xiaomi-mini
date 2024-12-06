@@ -20,9 +20,9 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: openwrt-23.05
-  FEEDS_CONF: 360T7/immortalwrt-mt798x-fros/feeds.conf.default
+  REPO_URL: https://github.com/destan19/immortalwrt-mt798x-fros
+  REPO_BRANCH: openwrt-21.02
+  FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 360T7/immortalwrt-mt798x-fros/fros-AP-360t7.config
   DIY_P1_SH: 360T7/immortalwrt-mt798x-fros/diy-part1-fros-360t7.sh
   DIY_P2_SH: 360T7/immortalwrt-mt798x-fros/diy-part2-fros-360t7.sh
