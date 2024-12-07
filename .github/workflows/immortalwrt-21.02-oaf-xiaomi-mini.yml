@@ -14,9 +14,9 @@ env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: xiaomi-mini/immortalwrt-21.02/xiaomi-mini-ap/xiaomi-mini-ap.config
-  DIY_P1_SH: xiaomi-mini/immortalwrt-21.02/xiaomi-mini-ap/diy-part1-ap.sh
-  DIY_P2_SH: xiaomi-mini/immortalwrt-21.02/xiaomi-mini-ap/diy-part2-ap.sh
+  CONFIG_FILE: xiaomi-mini/immortalwrt-21.02/oaf/xiaomi-mini-oaf.config
+  DIY_P1_SH: xiaomi-mini/immortalwrt-21.02/oaf/diy-part1-oaf.sh
+  DIY_P2_SH: xiaomi-mini/immortalwrt-21.02/oaf/diy-part2-oaf.sh
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
@@ -175,7 +175,7 @@ jobs:
       with:
         tag_name: ${{ steps.tag.outputs.release_tag }}
         ### 修改说明文作txt
-        body_path: xiaomi-mini/immortalwrt-21.02/xiaomi-mini-ap/xiaomi-mini-ap.txt
+        body_path: xiaomi-mini/immortalwrt-21.02/oaf/xiaomi-mini-oaf.txt
         files: ${{ env.FIRMWARE }}/*
 
     - name: Delete workflow runs
