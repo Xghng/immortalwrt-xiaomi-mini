@@ -1,5 +1,4 @@
 immortalwrt-21.02（闭源MTK驱动）xiaomi-mini-ssr-plus版。
-含模块：luci-app-autoreboot 定时重启插件
 含模块：luci-app-frpc 内网穿透客户端插件
 含模块：luci-app-ssr-plus 科学上网插件
 含模块：luci-app-openvpn-server OpenVPN 服务器
