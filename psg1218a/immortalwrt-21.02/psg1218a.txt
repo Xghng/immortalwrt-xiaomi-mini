@@ -1,5 +1,5 @@
 immortalwrt-21.02（闭源MTK驱动）主路由AP版。
-mt7620a_phicomm_psg1218a
+固件设备：mt7620a_phicomm_psg1218a
 含模块：luci-app-autoreboot 定时重启
 含模块：luci-app-eqos 网速控制服务
 含模块：luci-app-nft-qos 网速控制
