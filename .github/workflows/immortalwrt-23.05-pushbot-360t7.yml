@@ -23,9 +23,9 @@ env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt.git
   REPO_BRANCH: openwrt-23.05
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: 360T7/immortalwrt23.05/AP-360t7/AP-360t7.config
-  DIY_P1_SH: 360T7/immortalwrt23.05/AP-360t7/diy-part1-AP-360t7.sh
-  DIY_P2_SH: 360T7/immortalwrt23.05/AP-360t7/diy-part2-AP-360t7.sh
+  CONFIG_FILE: 360T7/immortalwrt23.05/pushbot/pushbot-360t7.config
+  DIY_P1_SH: 360T7/immortalwrt23.05/pushbot/diy-part1-pushbot-360t7.sh
+  DIY_P2_SH: 360T7/immortalwrt23.05/pushbot/diy-part2-pushbot-360t7.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
@@ -172,7 +172,7 @@ jobs:
       with:
         tag_name: ${{ steps.tag.outputs.release_tag }}
         ## 可修改说明文件TXT
-        body_path: 360T7/immortalwrt23.05/AP-360t7/AP-360t7.txt
+        body_path: 360T7/immortalwrt23.05/pushbot/pushbot.txt
         files: ${{ env.FIRMWARE }}/*
 
     - name: Delete workflow runs
