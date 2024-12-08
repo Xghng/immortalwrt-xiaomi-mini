@@ -14,7 +14,8 @@
 # sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 # sed -i '$a src-git helloworld https://github.com/P3TERX/helloworld' feeds.conf.default
 ### 应用过滤luci-app-oaf插件
-sed -i '$a src-git OpenAppFilter https://github.com/Xghng/OpenAppFilter.git' feeds.conf.default
+# sed -i '$a src-git OpenAppFilter https://github.com/Xghng/OpenAppFilter.git' feeds.conf.default
+sed -i '$a src-git OpenAppFilter https://github.com/JinWRT/OpenAppFilter.git' feeds.conf.default
 # cd lede
 # sed -i '$a src-git NueXini_Packages https://github.com/Xghng/NueXini_Packages.git' feeds.conf.default
 # ./scripts/feeds update -a && ./scripts/feeds install -a
