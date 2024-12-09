@@ -2,6 +2,7 @@ immortalwrt-23.05（闭源MTK驱动）主路由AP版。
 含模块：luci-app-autoreboot 定时重启
 含模块：luci-app-wrtbwmon 实时流量监测
 含模块：luci-app-fros 防沉迷系统
+含模块：luci-app-nft-qos 网速控制最小Kb/S设置
 默认IP地址：192.168.168.1
 密码：空
 
