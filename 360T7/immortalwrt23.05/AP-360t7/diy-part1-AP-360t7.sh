@@ -10,9 +10,10 @@
 
 ### 添加第三方订阅源
 sed -i '$a src-git-full small https://github.com/kenzok8/small-package' feeds.conf.default
+sed -i '$a src-git-full src-git luci https://github.com/openwrt/luci.git' feeds.conf.default
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 # sed -i '$a src-git helloworld https://github.com/P3TERX/helloworld' feeds.conf.default
 ### 应用过滤luci-app-oaf插件
-sed -i '$a src-git-full OpenAppFilter https://github.com/Xghng/OpenAppFilter.git' feeds.conf.default
+# sed -i '$a src-git-full OpenAppFilter https://github.com/Xghng/OpenAppFilter.git' feeds.conf.default
 #
