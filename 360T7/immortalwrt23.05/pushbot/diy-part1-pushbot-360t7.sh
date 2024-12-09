@@ -13,7 +13,7 @@
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 # sed -i '$a src-git helloworld https://github.com/P3TERX/helloworld' feeds.conf.default
-
+### 实时流量监测
 echo 'src-git wrtbwmon https://github.com/Xghng/luci-app-wrtbwmon' >>feeds.conf.default
 ### 应用过滤luci-app-oaf插件
 # sed -i '$a src-git-full OpenAppFilter https://github.com/Xghng/OpenAppFilter.git' feeds.conf.default
