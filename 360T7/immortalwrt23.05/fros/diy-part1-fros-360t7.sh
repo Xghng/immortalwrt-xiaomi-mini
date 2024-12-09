@@ -13,6 +13,8 @@ sed -i '$a src-git-full small https://github.com/kenzok8/small-package' feeds.co
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 # sed -i '$a src-git helloworld https://github.com/P3TERX/helloworld' feeds.conf.default
+### fros防沉迷系统
+sed -i '$a src-git-full fros https://github.com/destan19/fros-packages-immortalwrt-mt798x.git' feeds.conf.default
 ### 应用过滤luci-app-oaf插件
 sed -i '$a src-git-full OpenAppFilter https://github.com/Xghng/OpenAppFilter.git' feeds.conf.default
 #
