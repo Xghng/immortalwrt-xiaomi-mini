@@ -4,8 +4,8 @@ immortalwrt-23.05（闭源MTK驱动）主路由AP版。
 含模块：luci-app-zerotier  内网穿透 取消
 含模块：luci-app-nft-qos  网速控制最小Kb/S设置 取消
 含模块：luci-app-oaf 应用过滤插件 在线绿 离线红 取消
-含模块：luci-app-wechatpush  Server酱推送,企业微信推送,PushPlus推送,WxPusher微信推送 取消
-含模块：luci-app-pushbot 钉钉推送
+含模块：luci-app-wechatpush  Server酱推送,企业微信推送,PushPlus推送,WxPusher微信推送
+含模块：luci-app-pushbot 钉钉推送 不能运行取消
 默认IP地址：192.168.168.1
 密码：空
 
