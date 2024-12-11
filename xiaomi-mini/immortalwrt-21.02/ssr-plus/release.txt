@@ -1,7 +1,9 @@
 immortalwrt-21.02（闭源MTK驱动）xiaomi-mini-ssr-plus版。
 含模块：luci-app-frpc 内网穿透客户端插件
-含模块：luci-app-ssr-plus 科学上网插件
+含模块：luci-app-ssr-plus 含服务器端模块科学上网插件
 含模块：luci-app-openvpn-server OpenVPN 服务器
-含模块：
+含模块：luci-app-zerotier  内网穿透插件
+含模块：luci-app-ddns  动态DDNS
+含模块：luci-app-wechatpush  微信推送
 默认IP地址：192.168.166.1
 密码：空
