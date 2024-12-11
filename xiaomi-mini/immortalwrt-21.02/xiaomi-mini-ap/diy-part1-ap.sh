@@ -11,7 +11,8 @@
 ### 添加第三方订阅源
 # sed -i '$a src-git-full small https://github.com/kenzok8/small-package' feeds.conf.default
 # sed -i '$a src-git-full small https://github.com/Xghng/kenzok8-small-package' feeds.conf.default
-echo 'src-git control-weburl https://github.com/Xghng/luci-app-control-weburl' feeds.conf.default
+sed -i '$a src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git' feeds.conf.default
+# echo 'src-git control-weburl https://github.com/Xghng/luci-app-control-weburl' feeds.conf.default
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 # sed -i '$a src-git helloworld https://github.com/P3TERX/helloworld' feeds.conf.default
