@@ -13,6 +13,7 @@
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 # sed -i '$a src-git helloworld https://github.com/P3TERX/helloworld' feeds.conf.default
-cd lede
-sed -i '$a src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git' feeds.conf.default
-./scripts/feeds update -a && ./scripts/feeds install -a
+sed -i '$a src-git NueXini_Packages https://github.com/Xghng/NueXini_Packages.git' feeds.conf.default
+# cd lede
+# sed -i '$a src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git' feeds.conf.default
+# ./scripts/feeds update -a && ./scripts/feeds install -a
