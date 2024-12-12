@@ -1,0 +1,5 @@
+immortalwrt-21.02（闭源MTK驱动）主路由AP版。
+含模块：luci-app-autoreboot 定时重启
+含模块：nodogsplash web认证服务器
+默认IP地址：192.168.166.1
+密码：空
