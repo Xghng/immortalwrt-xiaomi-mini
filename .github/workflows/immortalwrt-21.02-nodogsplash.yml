@@ -13,7 +13,7 @@ name: immortalwrt-21.02-nodogsplash
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-21.02
-  FEEDS_CONF: feeds.conf.default
+  FEEDS_CONF: xiaomi-mini/immortalwrt-21.02/nodogsplash/feeds.conf.default
   CONFIG_FILE: xiaomi-mini/immortalwrt-21.02/nodogsplash/nodogsplash.config
   DIY_P1_SH: xiaomi-mini/immortalwrt-21.02/nodogsplash/diy-part1-nodogsplash.sh
   DIY_P2_SH: xiaomi-mini/immortalwrt-21.02/nodogsplash/diy-part2-nodogsplash.sh
