@@ -21,4 +21,5 @@
 # sed -i '$a src-git NueXini_Packages https://github.com/Xghng/NueXini_Packages.git' feeds.conf.default
 #./scripts/feeds update -a && ./scripts/feeds install -a
 ### nodogsplashweb认证服务器插件
-sed -i '$a src-git-full OpenWrt-packages https://github.com/OpenWrt-Actions/OpenWrt-Packages' >>feeds.conf.default
+rm -rf package/helloworld
+git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
