@@ -22,3 +22,5 @@
 #./scripts/feeds update -a && ./scripts/feeds install -a
 ### nodogsplashweb认证服务器插件
 sed -i '$a src-git nodogsplash https://github.com/Xghng/luci-app-nodogsplash.git' feeds.conf.default
+### luci-app-nodogsplash软件包
+sed -i '$a src-git squid-adv https://github.com/Xghng/luci-app-squid-adv.git' feeds.conf.default
