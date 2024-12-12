@@ -21,5 +21,5 @@
 # sed -i '$a src-git NueXini_Packages https://github.com/Xghng/NueXini_Packages.git' feeds.conf.default
 #./scripts/feeds update -a && ./scripts/feeds install -a
 ### nodogsplashweb认证服务器插件
-rm -rf package/helloworld
-git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
+rm -rf package/luci-app-nodogsplash
+git clone --depth=1 https://github.com/Xghng/luci-app-nodogsplash.git package/luci-app-nodogsplash
