@@ -21,7 +21,4 @@
 # sed -i '$a src-git NueXini_Packages https://github.com/Xghng/NueXini_Packages.git' feeds.conf.default
 #./scripts/feeds update -a && ./scripts/feeds install -a
 ### nodogsplashweb认证服务器插件
-echo 'src-git nodogsplash https://github.com/Xghng/luci-app-nodogsplash' >>feeds.conf.default
-### luci-app-nodogsplash软件包
-echo 'src-git squid-adv https://github.com/Xghng/luci-app-squid-adv' >>feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small-package' >>feeds.conf.default
+sed -i '$a src-git-full OpenWrt-packages https://github.com/OpenWrt-Actions/OpenWrt-Packages' >>feeds.conf.default
