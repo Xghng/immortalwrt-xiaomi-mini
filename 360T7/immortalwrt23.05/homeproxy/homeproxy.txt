@@ -1,9 +1,12 @@
 immortalwrt-23.05（闭源MTK驱动）主路由版。
-含模块：定时重启autoreboot 科学上网 homeproxy
-含模块：frpc客户端内网穿透 虚拟通道服务端器openvpn-server
-含模块：luci-app-oaf应用过滤插件
-含模块：uci-app-nft-qos 网速控制
-含模块：luci-app-wrtbwmon 实时流量监测
-含模块：luci-app-wechatpush  微信推送
+可用设备：mt7981-360T7
+含模块：luci-app-oaf            应用过滤插件
+含模块：luci-app-frpc           客户端内网穿透
+含模块：uci-app-nft-qos         网速控制可设KB/s
+含模块：luci-app-wrtbwmon       实时流量监测
+含模块：luci-app-autoreboot     定时重启
+含模块： luci-app-homeproxy     科学上网
+含模块：luci-app-wechatpush     微信推送
+含模块：luci-app-openvpn-server 虚拟通道服务端器
 默认IP地址：192.168.168.1
 密码：空
