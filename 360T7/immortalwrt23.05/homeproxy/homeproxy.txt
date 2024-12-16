@@ -1,8 +1,8 @@
 immortalwrt-23.05（闭源MTK驱动）主路由版。
 可用设备：mt7981-360T7
 含模块：luci-app-oaf            应用过滤插件       未安装
-含模块：luci-app-frpc           客户端内网穿透     未安装
-含模块：luci-app-frps           服务器内网穿透
+含模块：luci-app-frpc           客户端内网穿透     
+含模块：luci-app-frps           服务器内网穿透     未安装
 含模块：uci-app-nft-qos         网速控制可设KB/s   未安装
 含模块：luci-app-zerotier       内网穿透插件
 含模块：luci-app-wrtbwmon       实时流量监测
