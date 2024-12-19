@@ -14,7 +14,7 @@ env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-21.02
   # REPO_BRANCH: openwrt-18.06
-  FEEDS_CONF: feeds.conf.default
+  FEEDS_CONF: xiaomi-mini/immortalwrt-21.02/ssr-plus/feeds.conf.default
   CONFIG_FILE: xiaomi-mini/immortalwrt-21.02/ssr-plus/xiaomi-mini.config
   DIY_P1_SH: xiaomi-mini/immortalwrt-21.02/ssr-plus/diy-part1.sh
   DIY_P2_SH: xiaomi-mini/immortalwrt-21.02/ssr-plus/diy-part2.sh
