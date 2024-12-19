@@ -1,4 +1,4 @@
-immortalwrt-18.06（闭源MTK驱动）xiaomi-mini-ss-server版。
+immortalwrt-21.02（闭源MTK驱动）xiaomi-mini-ss-server版。
 含模块：luci-app-frpc 内网穿透客户端插件
 含模块：luci-app-shadowsocks ss-server 含简单科学上网服务器插件
 含模块：luci-app-openvpn-server OpenVPN 服务器 未安装
