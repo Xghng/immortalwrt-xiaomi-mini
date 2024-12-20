@@ -1,4 +1,4 @@
-immortalwrt-21.02（闭源MTK驱动）xiaomi-mini-ss-server版。
+immortalwrt-21.02（闭源MTK驱动）Netgear R6220。
 含模块：luci-app-ddns  动态DDNS
 含模块：luci-app-autoreboot  定时重启
 含模块：luci-app-zerotier  内网穿透插件
