@@ -5,5 +5,6 @@ immortalwrt-21.02（闭源MTK驱动）Netgear R6220。
 含模块：luci-app-frps 内网穿透服务器端插件
 含模块：luci-app-openvpn-server OpenVPN 服务器
 含模块：luci-app-ssr-plus 科学上网插件
+含模块：luci-app-wechatpush
 默认IP地址：192.168.1.1
 密码：空
